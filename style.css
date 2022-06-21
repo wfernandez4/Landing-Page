@@ -18,6 +18,7 @@ a, a:visited {
     max-width: 1250px;
     flex: 1;
     display: flex;
+    justify-content: center;
 }
 
 .container1 {
@@ -181,4 +182,53 @@ a, a:visited {
 .quote-author h1 {
     color: #1F2937;
     font-size: 16px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    border-radius: 20px;
+    margin: 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+    background-color: #3882F6;
+    justify-content: center;
+}
+
+.two-parts {
+    flex: 2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F9FAF8;
+}
+
+.modal button {
+    flex: 1;
+    max-width: 100px;
+    height: auto;
+    margin: 0;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #3882F6;
+}
+
+.container6 {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.container6 h1 {
+    color: #F9FAF8;
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
 }
